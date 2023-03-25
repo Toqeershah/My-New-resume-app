@@ -1,15 +1,22 @@
 import React from "react";
-import AboutMe from "./component/about-me";
-import { aboutMe, skills, professionalData } from "../data/page-data";
-import ProfessionalExperience from "./component/professional-experience";
+import About from "../components/sections/About";
+import Contact from "../components/sections/Contact";
+import Cta from "../components/sections/Cta";
+import Hero from "../components/sections/Hero";
+import Portfolio from "../components/sections/Portfolio";
+import Services from "../components/sections/Services";
 
 const page = () => {
-	return (
-		<div>
-			<AboutMe data={aboutMe} skills={skills} />
-			<ProfessionalExperience data={professionalData} />
-		</div>
-	);
+  return (
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <Cta />
+      <Portfolio />
+      <Contact />
+    </>
+  );
 };
 
 export default page;

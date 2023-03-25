@@ -1,4 +1,16 @@
 {
+  "name": "resume-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toqeershah/resume-appp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Toqeershah/resume-appp#readme",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -6,9 +18,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@next/font": "^13.2.4",
+    "next": "^13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
