@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h2 className="greet">Hey!</h2>
-          <h1 className="title">I am John Doe</h1>
+          <h1 className="title">It's Me Toqeer Abid</h1>
           <p className="subtitle">
             Specializes in Frontend Development. Focused on building great User
             Interfaces.
